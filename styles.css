@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://t3.ftcdn.net/jpg/02/38/35/68/360_F_238356854_fWsLj3AeOyljF5dV2AhaopVcOUZkU6Uz.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(119, 119, 119);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(107, 102, 102);
+  }
+
+  h2{
+    color: rgb(41, 41, 41);
+  }
+  
+  input {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(80, 79, 79);
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: white;
+    color:rgb(80, 79, 79) ;
+  }
+
+  #set-alarm>label{
+    color: rgb(41, 41, 41);
+    font-size: 20px;
+  }
+  
+  #current-time-display {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #alarm-status {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #f44336;
+  }
+  
